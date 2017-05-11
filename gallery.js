@@ -20,30 +20,28 @@ var student=[
   from:"profightdb.com"
   }];
 var current = student;
-var correct = "student clicked on";
-var answer =correct.toString();
 function correctanswer0()
 {
   document.getElementById("picture").src= current[0].picture;
-  document.getElementById("caption").innerHTML= answer;
+  document.getElementById("caption").innerHTML= current[0].description;
 }
 function correctanswer1()
 {
   document.getElementById("picture").src= current[1].picture;
-  document.getElementById("caption").innerHTML= answer;
+  document.getElementById("caption").innerHTML= current[1].description;
 }
 function correctanswer2()
 {
   document.getElementById("picture").src= current[3].picture;
-  document.getElementById("caption").innerHTML= answer;
+  document.getElementById("caption").innerHTML= current[3].description;
 }
 function correctanswer3()
 {
   document.getElementById("picture").src= current[2].picture;
-  document.getElementById("caption").innerHTML= answer;
+  document.getElementById("caption").innerHTML= current[2].description;
 }
 function correctanswer4()
 {
   document.getElementById("picture").src= current[4].picture;
-  document.getElementById("caption").innerHTML= answer;
+  document.getElementById("caption").innerHTML= current[4].description;
 }
